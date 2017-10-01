@@ -1,5 +1,6 @@
 {
   "name": "DesktopDeck",
+  "productName": "Card Game",
   "version": "0.0.1",
   "description": "deck of card platform",
   "main": "lib/main.js",
@@ -8,9 +9,6 @@
     "backbone": "^1.3.3",
     "electron-is-dev": "^0.3.0",
     "electron-json-storage": "^3.1.0",
-    "ipfs": "^0.25.4",
-    "ipfs-api": "^14.3.5",
-    "ipfs-pubsub-room": "^0.2.0",
     "jquery": "^3.1.0",
     "leveldown": "^1.7.2",
     "moment": "^2.14.1",
@@ -20,11 +18,11 @@
   },
   "devDependencies": {
     "electron": "^1.3.3",
-    "standard": "^10.0.3"
+    "electron-packager": "^9.1.0"
   },
   "scripts": {
     "start": "electron .",
-    "test": "standard"
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icons/mac/icon.icns --prune=true --out=release-builds"
   },
   "author": "Warren Wan",
   "license": "MIT"
