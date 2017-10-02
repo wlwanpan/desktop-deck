@@ -1,0 +1,11 @@
+// Constants and Global Styles
+$btn-blue: #509af0;
+
+.round-btn {
+  font-size: 17px; color: $btn-blue; background-color: transparent;
+  border: 1px solid $btn-blue; border-radius: 6px;
+
+  &:hover {
+    background-color: $btn-blue !important; color: #fff !important;
+  }
+}

@@ -1,0 +1,21 @@
+
+#main-view {
+
+  height: 100%;
+  .header-wrapper {
+
+  }
+
+  .main-btn-container {
+    display: flex; justify-content: center; flex-direction: column;
+    height: 100%; padding: 10px;
+    .round-btn {
+      margin-bottom: 20px;
+    }
+  }
+
+  .side-container {
+    border: 1px solid black;
+  }
+
+}
