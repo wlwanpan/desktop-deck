@@ -1,6 +1,10 @@
 
 #create-channel-view {
-
+  .disabled-btn {
+    pointer-events: none;
+    background-color: $btn-red;
+    border: 1px solid $btn-red;
+  }
 }
 
 #member-channel-view {

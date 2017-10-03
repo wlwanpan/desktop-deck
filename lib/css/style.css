@@ -5,26 +5,43 @@
   border: 1px solid #509af0;
   border-radius: 6px; }
   .round-btn:hover {
-    background-color: #509af0 !important;
-    color: #fff !important; }
+    background-color: #509af0;
+    color: #fff; }
+
+.vertical-center-contents {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
 
 #chat-room-view .message-list {
   width: 100%;
   height: 400px;
   border: 1px solid black; }
 
+#create-channel-view .disabled-btn {
+  pointer-events: none;
+  background-color: #CA4C3D;
+  border: 1px solid #CA4C3D; }
+
 #main-view {
   height: 100%; }
   #main-view .main-btn-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     height: 100%;
     padding: 10px; }
     #main-view .main-btn-container .round-btn {
       margin-bottom: 20px; }
   #main-view .side-container {
     border: 1px solid black; }
+
+#login-view {
+  height: 100%; }
+  #login-view .login-form {
+    padding: 45px 40px; }
+  #login-view .input-field {
+    border-radius: 4px;
+    margin-top: 20px; }
+    #login-view .input-field.register-field {
+      display: none; }
 
 ul {
   margin: 0;

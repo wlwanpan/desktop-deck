@@ -7,7 +7,6 @@
   }
 
   .main-btn-container {
-    display: flex; justify-content: center; flex-direction: column;
     height: 100%; padding: 10px;
     .round-btn {
       margin-bottom: 20px;
@@ -16,6 +15,23 @@
 
   .side-container {
     border: 1px solid black;
+  }
+
+}
+
+#login-view {
+  height: 100%;
+
+  .login-form {
+    padding: 45px 40px;
+  }
+
+  .input-field {
+    border-radius: 4px; margin-top: 20px;
+
+    &.register-field {
+      display: none;
+    }
   }
 
 }
