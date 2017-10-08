@@ -2,6 +2,17 @@
 $btn-blue: #509af0;
 $btn-red: #CA4C3D;
 
+ul {
+  margin: 0; list-style-type: none;
+}
+
+html, body { width: 100%; height: 100%; }
+
+.window {
+  padding: 10px; height: 100%; color: #fff;
+  background-image: linear-gradient(200deg, #15232C, #161f2b);
+}
+
 .round-btn {
   font-size: 17px; color: $btn-blue; background-color: transparent;
   border: 1px solid $btn-blue; border-radius: 6px;
