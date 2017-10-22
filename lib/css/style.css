@@ -41,6 +41,10 @@ html, body {
   background-color: #CA4C3D;
   border: 1px solid #CA4C3D; }
 
+#create-channel-view .player-view-placeholder {
+  height: 50px;
+  border: 1px dotted white; }
+
 #main-view {
   height: 100%; }
   #main-view .main-btn-container {

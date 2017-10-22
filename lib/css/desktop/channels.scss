@@ -5,6 +5,11 @@
     background-color: $btn-red;
     border: 1px solid $btn-red;
   }
+
+  .player-view-placeholder {
+    height: 50px;
+    border: 1px dotted white;
+  }
 }
 
 #member-channel-view {
